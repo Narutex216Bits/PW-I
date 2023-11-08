@@ -1,0 +1,109 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, 
+          initial-scale=1.0">
+    <title>Matrícula</title>
+</head>
+<body>
+    <form target="_blank" action="Confirmacao.html" id="formulario">
+        <a href="#curso">Cursos</a>
+        <a href="#periodo">Periodo</a>
+        <a href="#maior18">Maior 18</a>
+        <a href="#preferenciaALimentar">Preferência Alimentar</a>
+        <a href="#cor">Cor</a>
+        <a href="#email">Email</a>
+        <a href="#foto">Foto</a>
+        <a href="#enviar">Enviar</a>
+        <a href="#tabela">Tabela</a>
+        <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <label>Nome:</label>
+        <br>
+        <input type="text"/>
+        <br><br>
+        <label>Data Nascimento:</label>
+        <br>
+        <input type="date"/>
+        <br><br>
+        <label>Número:</label>
+        <br>
+        <input type="number" min="1" max="10">
+        <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <label id="curso">Cursos:</label>
+        <br>
+        <select>
+            <option>** Selecione uma Opção **</option>
+            <option>Desenvolvimento de Sistemas</option>
+            <option>Elétrica</option>
+            <option>Mecânica</option>
+            <option>Enfermagem</option>
+            <option>Mecatrônica</option>
+        </select>
+        <a href="#formulario">Voltar</a>
+        <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <label id="periodo">Período:</label>
+        <input type="radio" name="periodo">Manhã
+        <input type="radio" name="periodo">Tarde
+        <input type="radio" name="periodo">Noite
+        <a href="#formulario">Voltar</a>
+        <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <label id="maior18">Maior que 18?</label>
+        <input type="radio" name="maior18">Sim
+        <input type="radio" name="maior18">Não
+        <a href="#formulario">Voltar</a>
+        <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <label id="preferenciaALimentar">Preferência Alimentar</label>
+        <input type="checkbox">Feijão
+        <input type="checkbox">Arroz
+        <input type="checkbox">Macarrão
+        <a href="#formulario">Voltar</a>
+        <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <label id="cor">Cor</label>
+        <br>
+        <input type="color">
+        <a href="#formulario">Voltar</a>
+        <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <label id="email">Email</label>
+        <input type="email">
+        <br><br>
+        <a href="#formulario">Voltar</a>
+        <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <label id="foto">Selecione uma foto</label>
+        <input type="file"multiple>
+        <a href="#formulario">Voltar</a>
+        <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <a href="https://www.uol.com.br" target="_blank">uol</a>
+        
+        <hr>
+        <label id="enviar">Enviar</label>
+        <button type="submit">Confirmar</button>
+        <button type="reset">Cancelar</button>
+        <a href="#formulario">Voltar</a>
+        <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </form>
+    <table border="1" id="tabela">
+        <tr>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Categoria</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Pedro</td>
+            <td>30</td>
+            <td rowspan="3">A</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Antônio</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td colspan="3">João</td>
+        </tr>
+    </table>
+    <a href="#formulario">Voltar</a>
+</body>
+</html>
